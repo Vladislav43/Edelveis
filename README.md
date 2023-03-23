@@ -1,5 +1,6 @@
 # Edelveis
-Edelveis/n
+Edelveis
+
 A free blog for a free people. 
 
 Stack:
