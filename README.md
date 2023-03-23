@@ -1,22 +1,21 @@
 # Edelveis
-Edelveis
 
 A free blog for a free people. 
 
-Stack:
+# Stack
 
 C#, .NET, Razor Pages, SQL, Azure.
 
-Usage:
+# Usage
 
 I`m still working on this part
 
-Contributing:
+# Contributing
 
 https://github.com/aslobodyanuk
 
 
-Credits:
+# Credits
 
 
 https://www.w3schools.com/asp/webpages_intro.asp; 
