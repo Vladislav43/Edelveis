@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kozariz.Edelveis.Core\Kozariz.Edelveis.Core.csproj" />
+    <ProjectReference Include="..\Kozariz.Edelveis.EF.Database\Kozariz.Edelveis.EF.Database.csproj" />
+    <ProjectReference Include="..\Kozariz.Edelveis.Models\Kozariz.Edelveis.Models.csproj" />
+    <ProjectReference Include="..\Kozariz.Edelveis.Test\Kozariz.Edelveis.Test.csproj" />
+  </ItemGroup>
+
+</Project>
