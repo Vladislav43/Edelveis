@@ -11,10 +11,8 @@ namespace Kozariz.Edelveis.Project
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
             builder.Services.AddRazorPages();
-
-            // Add database context
+            builder.Services.AddApplicationInsightsTelemetry();
             builder.Services.AddDbContext<MyDbContext>(options =>
             {
                 var config = builder.Configuration.GetSection("AppConfig").Get<AppConfig>();
@@ -23,11 +21,9 @@ namespace Kozariz.Edelveis.Project
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
