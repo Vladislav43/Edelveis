@@ -1,6 +1,7 @@
 # Edelveis
 
 A free blog for a free people. Post whatever you like, say whatever you like. Find someone with simmilar preferences, or make others to become interested in yours!
+# Azure Deploy
 https://edelveis.azurewebsites.net/
 # Stack
 
