@@ -20,19 +20,25 @@ I`m still working on this part
 
 ## Tasks
 
-1. [x] Create base structure for project
-2. [x] Create base services
+1. Create base structure for project 
+      - [x] Done
+2. Create base services
+      - [x] Done
 3. Deploy project via Azure
       - [x] Initial deploy
       - [ ] Hide connection string
       - [x] CI/CD
       - [ ] Application Insights
-4. [ ] Find out main functions for blog
-5. [ ] User login system
-6. [ ] Implement like-based sorting algorithm
-7. [ ] Features creation
-8. [ ] Bug fixing
-
+4. Find out main functions for blog
+      - [ ] Done
+5. User login system
+      - [ ] Done
+6. Implement like-based sorting algorithm
+      - [ ] Done
+7. Features creation
+      - [ ] Done
+8. Bug fixing
+      - [ ] Done
 ## Contributing
 
 https://github.com/aslobodyanuk
