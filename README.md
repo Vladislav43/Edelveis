@@ -7,17 +7,18 @@ A free blog for a free people. Post whatever you like, say whatever you like. Fi
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Tasks](#tasks)
-# Azure Deploy
+- [Credits](#credits)
+## Azure Deploy
 https://edelveis.azurewebsites.net/
-# Stack
+## Stack
 
 C#, .NET, Razor Pages, SQL, Azure.
 
-# Usage
+## Usage
 
 I`m still working on this part
 
-# Tasks
+## Tasks
 
 1. [x] Create base structure for project
 2. [x] Create base services
@@ -32,12 +33,12 @@ I`m still working on this part
 7. [ ] Features creation
 8. [ ] Bug fixing
 
-# Contributing
+## Contributing
 
 https://github.com/aslobodyanuk
 
 
-# Credits
+## Credits
 
 
 https://www.w3schools.com/asp/webpages_intro.asp; 
