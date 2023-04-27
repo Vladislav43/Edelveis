@@ -22,7 +22,7 @@ I`m still working on this part
 
 1. [x] Create base structure for project
 2. [x] Create base services
-3. [x] Deploy project via Azure
+3. Deploy project via Azure
       - [x] Initial deploy
       - [ ] Hide connection string
       - [x] CI/CD
