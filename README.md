@@ -13,14 +13,14 @@ I`m still working on this part
 
 # Tasks
 
-1. ~~Create base structure for project~~
-2. ~~Create base services~~
-3. ~~Deploy project via Azure~~
-4. Find out main functions for blog
-5. Develop all the nedeed pages
-6. Implement like-based sorting algorithm
-7. Features creation
-8. Bug fixing
+1. [x] Create base structure for project
+2. [x] Create base services
+3. [x] Deploy project via Azure
+4. [ ] Find out main functions for blog
+5. [ ] User login system
+6. [ ] Implement like-based sorting algorithm
+7. [ ] Features creation
+8. [ ] Bug fixing
 
 # Contributing
 
