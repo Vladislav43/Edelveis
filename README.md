@@ -6,7 +6,7 @@ A free blog for a free people. Post whatever you like, say whatever you like. Fi
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+- [Tasks](#tasks)
 # Azure Deploy
 https://edelveis.azurewebsites.net/
 # Stack
