@@ -50,3 +50,14 @@ https://github.com/aslobodyanuk
 https://www.w3schools.com/asp/webpages_intro.asp; 
  https://www.w3schools.com/html/default.asp;
  https://www.w3schools.com/css/default.asp;
+ 
+ ## Lab-3
+
+**Task/s:**
+- Fix `footer`. Footer should be at he bottom of the screen.
+- Fix `error`. Error with `404 status code` which occurs while loading any page.
+
+Fixed by Oleh Suvorov.
+My [Twitter Clone](https://github.com/plxgwalker/Suvorov.LNU.Twitter-Clone).
+
+[Pull request](https://github.com/odvova/Edelveis/pull/1#issue-1692408728) with fixing.
