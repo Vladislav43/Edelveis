@@ -26,12 +26,12 @@ I`m still working on this part
       - [x] Done
 3. Deploy project via Azure
       - [x] Initial deploy
-      - [ ] Hide connection string
+      - [x] Hide connection string
       - [x] CI/CD
-      - [ ] Application Insights
-4. Find out main functions for blog
+      - [x] Application Insights
+4. User login system
       - [ ] Done
-5. User login system
+5. Find out main functions for blog
       - [ ] Done
 6. Implement like-based sorting algorithm
       - [ ] Done
