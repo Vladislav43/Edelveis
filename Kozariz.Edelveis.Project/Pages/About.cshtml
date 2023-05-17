@@ -3,29 +3,55 @@
 @{
     ViewData["Title"] = "About";
 }
-<h1>@ViewData["Title"]</h1>
+<!DOCTYPE html>
+<html lang="en-US" class="hide-scroll">
+<head>
+    <title>Clearly about us HTML Template Live Demo</title>
+    <meta name="Keywords">
+    <meta name="Description">
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no,width=device-width">
+    <link href="//fonts.googleapis.com/css?family=Roboto|Open+Sans:200,300,400,700,800,900&amp;subset=latin" rel="preload" as="font" />
+    <style>
+        .grid-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
 
-<p><strong>Edelveis</strong></p>
-
-<p>A free blog for a free people. Post whatever you like, say whatever you like. Find someone with <strong>SIMMILAR</strong> preferences, or make others to become interested in yours!</p>
-
-<p><strong>Stack</strong></p>
-
-<p><strong>C#, .NET, Razor Pages, SQL, Azure.</strong></p>
-
-<p><strong>Usage</strong></p>
-
-<p>I`M STILL WORKING ON THIS PART</p>
-
-<p><strong>Contributing</strong></p>
-
-<p><a href="https://github.com/aslobodyanuk"><strong>https://github.com/aslobodyanuk</strong></a></p>
-
-<p><strong>Credits</strong></p>
-
-<p><a href="https://www.w3schools.com/asp/webpages_intro.asp"><strong>https://www.w3schools.com/asp/webpages_intro.asp</strong></a>; </p>
-
-<p><a href="https://www.w3schools.com/html/default.asp"><strong>https://www.w3schools.com/html/default.asp</strong></a>;</p>
-
-<p><a href="https://www.w3schools.com/css/default.asp"><strong>https://www.w3schools.com/css/default.asp</strong></a>;</p>
+        .grid-item {
+            width: calc(33.33% - 20px); /* Adjust the width as needed */
+            margin: 10px;
+            border: 1px solid #000;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">
+            <p><strong>Edelveis</strong></p>
+            <p>A free blog for a free people. Post whatever you like, say whatever you like. Find someone with <strong>similar</strong> preferences, or make others become interested in yours!</p>
+            <!-- Content for the first grid item -->
+        </div>
+        <div class="grid-item">
+            <p><strong>Stack</strong></p>
+            <p><strong>C#, .NET, Razor Pages, SQL, Azure.</strong></p>
+            <!-- Content for the second grid item -->
+        </div>
+        <div class="grid-item">
+            <p><strong>Contributing</strong></p>
+            <p><a href="https://github.com/aslobodyanuk"><strong>https://github.com/aslobodyanuk</strong></a></p>
+            <!-- Content for the third grid item -->
+        </div>
+        <div class="grid-item">
+            <p><strong>Credits</strong></p>
+            <p><a href="https://www.w3schools.com/asp/webpages_intro.asp"><strong>https://www.w3schools.com/asp/webpages_intro.asp</strong></a></p>
+            <p><a href="https://www.w3schools.com/html/default.asp"><strong>https://www.w3schools.com/html/default.asp</strong></a></p>
+            <p><a href="https://www.w3schools.com/css/default.asp"><strong>https://www.w3schools.com/css/default.asp</strong></a></p>
+        </div>
+        <!-- Add more grid items as needed -->
+    </div>
+</body>
+</html>
 

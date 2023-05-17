@@ -4,14 +4,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kozariz.Edelveis.Web", "Kozariz.Edelveis.Project\Kozariz.Edelveis.Web.csproj", "{52C06C30-8826-4BC9-96F5-05B4927C406B}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kozariz.Edelveis.Core", "Kozariz.Edelveis.Core\Kozariz.Edelveis.Core.csproj", "{EA2000C9-1CBB-4C4F-B75E-34E08C9D38F0}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kozariz.Edelveis.EF.Database", "Kozariz.Edelveis.EF.Database\Kozariz.Edelveis.EF.Database.csproj", "{EBCBB020-999C-4271-86D4-F9703A8159F5}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kozariz.Edelveis.Models", "Kozariz.Edelveis.Models\Kozariz.Edelveis.Models.csproj", "{09C7B4BE-3E39-4E30-AC45-217276CFB47E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1D1E0805-4357-474B-AE0A-6DB2DD5B3F8E} = {1D1E0805-4357-474B-AE0A-6DB2DD5B3F8E}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kozariz.Edelveis.Test", "Kozariz.Edelveis.Test\Kozariz.Edelveis.Test.csproj", "{734D5686-3AE8-4372-A67F-4B22754453F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Edelveis.Db", "Edelveis.Db\Edelveis.Db.csproj", "{1D1E0805-4357-474B-AE0A-6DB2DD5B3F8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Edelveis.Services", "Edelveis.Services\Edelveis.Services.csproj", "{2E5DD56D-E007-41DB-9F1D-1D1DE025CAA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,22 +24,18 @@ Global
 		{52C06C30-8826-4BC9-96F5-05B4927C406B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52C06C30-8826-4BC9-96F5-05B4927C406B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52C06C30-8826-4BC9-96F5-05B4927C406B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EA2000C9-1CBB-4C4F-B75E-34E08C9D38F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EA2000C9-1CBB-4C4F-B75E-34E08C9D38F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EA2000C9-1CBB-4C4F-B75E-34E08C9D38F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EA2000C9-1CBB-4C4F-B75E-34E08C9D38F0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EBCBB020-999C-4271-86D4-F9703A8159F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EBCBB020-999C-4271-86D4-F9703A8159F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EBCBB020-999C-4271-86D4-F9703A8159F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EBCBB020-999C-4271-86D4-F9703A8159F5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{09C7B4BE-3E39-4E30-AC45-217276CFB47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{09C7B4BE-3E39-4E30-AC45-217276CFB47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{09C7B4BE-3E39-4E30-AC45-217276CFB47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{09C7B4BE-3E39-4E30-AC45-217276CFB47E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{734D5686-3AE8-4372-A67F-4B22754453F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{734D5686-3AE8-4372-A67F-4B22754453F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{734D5686-3AE8-4372-A67F-4B22754453F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{734D5686-3AE8-4372-A67F-4B22754453F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D1E0805-4357-474B-AE0A-6DB2DD5B3F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D1E0805-4357-474B-AE0A-6DB2DD5B3F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D1E0805-4357-474B-AE0A-6DB2DD5B3F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D1E0805-4357-474B-AE0A-6DB2DD5B3F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E5DD56D-E007-41DB-9F1D-1D1DE025CAA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E5DD56D-E007-41DB-9F1D-1D1DE025CAA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E5DD56D-E007-41DB-9F1D-1D1DE025CAA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E5DD56D-E007-41DB-9F1D-1D1DE025CAA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

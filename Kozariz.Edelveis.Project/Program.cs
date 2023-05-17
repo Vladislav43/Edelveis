@@ -1,7 +1,8 @@
-using Kozariz.Edelveis.Core;
-using Kozariz.Edelveis.EF.Database;
-using Kozariz.Edelveis.Models.Configuration;
+using Edelveis.Db.Models;
+using Edelveis.Db;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+
 
 namespace Kozariz.Edelveis.Project
 {
@@ -10,8 +11,13 @@ namespace Kozariz.Edelveis.Project
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
+            builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                .AddEntityFrameworkStores<MyDbContext>();
             builder.Services.AddRazorPages();
+            builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddSwaggerGen();
             builder.Services.AddApplicationInsightsTelemetry();
             builder.Services.AddDbContext<MyDbContext>(options =>
             {
@@ -23,13 +29,21 @@ namespace Kozariz.Edelveis.Project
 
             if (!app.Environment.IsDevelopment())
             {
+                app.UseMigrationsEndPoint();
                 app.UseExceptionHandler("/Error");
+                app.UseHsts();
+            }
+            else
+            {
+                app.UseExceptionHandler("/Error");
+                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            app.UseSwagger();
+            app.UseSwaggerUI();
             app.UseRouting();
 
             app.UseAuthorization();
