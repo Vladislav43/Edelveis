@@ -66,4 +66,4 @@ My [Twitter Clone](https://github.com/plxgwalker/Suvorov.LNU.Twitter-Clone).
 # Lab 4
 - Reviewer: Voievoda Vladislav 
 - My project [project](https://github.com/Vladislav43/WEB)
-- [Pull request]() with fixing.
+- [Pull request](https://github.com/Vladislav43/Edelveis/pull/1) with fixing.
