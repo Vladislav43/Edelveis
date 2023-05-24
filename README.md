@@ -61,3 +61,9 @@ Fixed by Oleh Suvorov.
 My [Twitter Clone](https://github.com/plxgwalker/Suvorov.LNU.Twitter-Clone).
 
 [Pull request](https://github.com/odvova/Edelveis/pull/1#issue-1692408728) with fixing.
+
+
+ ## Lab-4
+- Reviewer: Oleh Suvorov
+- Oleh's [project](https://github.com/plxgwalker/Suvorov.LNU.Twitter-Clone)
+- [Pull request](https://github.com/plxgwalker/Edelveis/pull/1) with full review of code
