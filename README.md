@@ -63,7 +63,14 @@ My [Twitter Clone](https://github.com/plxgwalker/Suvorov.LNU.Twitter-Clone).
 [Pull request](https://github.com/odvova/Edelveis/pull/1#issue-1692408728) with fixing.
 
 
+
 # Lab 4
 - Reviewer: Voievoda Vladislav 
 - My project [project](https://github.com/Vladislav43/WEB)
 - [Pull request](https://github.com/Vladislav43/Edelveis/pull/1) with fixing.
+=======
+ ## Lab-4
+- Reviewer: Oleh Suvorov
+- Oleh's [project](https://github.com/plxgwalker/Suvorov.LNU.Twitter-Clone)
+- [Pull request](https://github.com/plxgwalker/Edelveis/pull/1) with full review of code
+
