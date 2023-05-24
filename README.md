@@ -56,8 +56,14 @@ https://www.w3schools.com/asp/webpages_intro.asp;
 **Task/s:**
 - Fix `footer`. Footer should be at he bottom of the screen.
 - Fix `error`. Error with `404 status code` which occurs while loading any page.
-
+# Lab 4
 Fixed by Oleh Suvorov.
 My [Twitter Clone](https://github.com/plxgwalker/Suvorov.LNU.Twitter-Clone).
 
 [Pull request](https://github.com/odvova/Edelveis/pull/1#issue-1692408728) with fixing.
+
+
+# Lab 4
+- Reviewer: Voievoda Vladislav 
+- My project [project](https://github.com/Vladislav43/WEB)
+- [Pull request]() with fixing.
